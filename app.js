@@ -10,7 +10,7 @@ const port = process.env.PORT || 3000;
 
 
 app.get("/",(req,res)=>{
-    res.send("Welcome to nodejs");
+    res.send("Welcome to nodejs in heroku");
 })
 
 
